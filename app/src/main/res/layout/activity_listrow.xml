@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/border"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/relativeLayout10">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/imageView2"
+            android:background="@drawable/mini_border"
+            android:paddingLeft="2dp"
+            android:paddingTop="6dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="3dp"
+            android:id="@+id/activity_owner_photo_view"
+            android:layout_alignParentTop="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Oguzhan YILMAZ"
+            android:id="@+id/activity_owner_name_txt"
+            android:textSize="14dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/imageView2"
+            android:layout_toEndOf="@+id/imageView2"
+            android:layout_marginLeft="24dp"
+            android:layout_marginStart="24dp" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:id="@+id/imageView7"
+        android:background="#102e73"
+        android:layout_below="@+id/who_going_btn"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp" />
+
+    <Button
+    android:layout_width="100dp"
+    android:layout_height="30dp"
+    android:text="Kimler Gidiyor"
+    android:id="@+id/who_going_btn"
+        android:background="#102e73"
+        android:textColor="#ffffff"
+        android:textSize="12dp"
+        android:layout_marginTop="28dp"
+        android:layout_below="@+id/activity_photo"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+    android:layout_width="90dp"
+    android:layout_height="25dp"
+    android:text="KATIL"
+    android:id="@+id/join_bttn"
+        android:textColor="#ffffff"
+        android:background="#102e73"
+        android:layout_below="@+id/imageView11"
+        android:layout_toRightOf="@+id/imageView10"
+        android:layout_toEndOf="@+id/imageView10" />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="110dp"
+        android:id="@+id/activity_photo"
+        android:layout_below="@+id/relativeLayout10"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/bisiklet" />
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/activity_name"
+        android:textSize="10dp"
+        android:layout_below="@+id/relativeLayout10"
+        android:layout_toRightOf="@+id/imageView9"
+        android:layout_toEndOf="@+id/imageView9" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/description"
+        android:textSize="16dp"
+        android:layout_alignBottom="@+id/imageView9"
+        android:layout_alignLeft="@+id/activity_name"
+        android:layout_alignStart="@+id/activity_name" />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:paddingBottom="15dp"
+        android:id="@+id/imageView8"
+        android:background="@drawable/activity_like"
+        android:layout_alignTop="@+id/who_going_btn"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/imageView9"
+        android:background="@drawable/activity_info"
+        android:layout_below="@+id/relativeLayout10"
+        android:layout_toRightOf="@+id/activity_photo"
+        android:layout_toEndOf="@+id/activity_photo"
+        android:layout_marginBottom="50dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginStart="19dp" />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/imageView10"
+        android:background="@drawable/activity_location"
+        android:layout_below="@+id/description"
+        android:layout_toLeftOf="@+id/where_txt"
+        android:layout_toStartOf="@+id/where_txt"
+        android:layout_marginTop="10dp" />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/imageView11"
+        android:background="@drawable/activity_date"
+        android:layout_below="@+id/imageView10"
+        android:layout_toLeftOf="@+id/activity_date_txt"
+        android:layout_toStartOf="@+id/activity_date_txt"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/activity_date_txt"
+        android:textSize="12dp"
+        android:layout_alignBottom="@+id/imageView11"
+        android:layout_alignLeft="@+id/activity_name"
+        android:layout_alignStart="@+id/activity_name"
+        android:layout_alignRight="@+id/join_bttn"
+        android:layout_alignEnd="@+id/join_bttn" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/where_txt"
+        android:layout_above="@+id/imageView11"
+        android:layout_alignLeft="@+id/description"
+        android:layout_alignStart="@+id/description" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="daha fazla..."
+        android:id="@+id/textView5"
+        android:layout_alignBottom="@+id/join_bttn"
+        android:layout_alignRight="@+id/relativeLayout10"
+        android:layout_alignEnd="@+id/relativeLayout10" /><![CDATA[
+
+    " />
+
+
+]]>
+</RelativeLayout>

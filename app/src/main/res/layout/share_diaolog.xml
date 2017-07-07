@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/share_realative"
+    android:background="@drawable/degree_list_back"
+    android:layout_height="450dp">
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:background="@drawable/degree_list_back"
+    android:layout_height="wrap_content">
+    <ScrollView
+        android:id="@+id/svScroll"
+        android:layout_width="fill_parent"
+        android:layout_height="440dp"
+        android:background="#00ffffff"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="440dp"
+            android:background="#00ffffff"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="20.25">
+
+            <TextView
+                android:layout_width="231dp"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="ETKİNLİK DETAYLARI"
+                android:id="@+id/textView"
+                android:layout_gravity="center_horizontal"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:background="#102E73"
+                android:textColor="#ffffff"
+                android:textAlignment="center" />
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/activity_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                >
+            <EditText
+                android:id="@+id/activity_name_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Etkinlik Başlığı"
+                 />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/activity_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                >
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Etkinlik Hakkında"
+                    android:id="@+id/activity_description_txt" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/activity_places"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                >
+            <EditText
+                android:id="@+id/activity_places_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nerede ?"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+            </android.support.design.widget.TextInputLayout>
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:id="@+id/activity_date_txt"
+                android:layout_width="134dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/activity_description_txt"
+                android:hint="Ne zaman ?"
+                android:inputType="date"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kimlerle Paylaşılsın"
+                android:id="@+id/textView2"
+                android:layout_gravity="center_horizontal" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/activity_places_txt">
+
+                <RelativeLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:weightSum="1">
+
+                    <RadioButton
+                        android:id="@+id/friend_radio"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:text="Arkadaşlarım"
+                        android:layout_marginLeft="31dp"
+                        android:layout_marginStart="31dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true" />
+
+                    <RadioButton
+                        android:id="@+id/all_radio"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:text="Çevrem"
+                        android:layout_marginLeft="68dp"
+                        android:layout_marginStart="68dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_toRightOf="@+id/friend_radio"
+                        android:layout_toEndOf="@+id/friend_radio" />
+                </RelativeLayout>
+
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/add_photo"
+                android:layout_width="160dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_horizontal"
+                android:text="Fotoğraf Ekle"
+                android:background="#102E73"
+                android:textColor="#ffffff" />
+
+            <ImageView
+                android:id="@+id/added_photo"
+                android:layout_width="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="50dp" />
+
+            <Button
+                android:id="@+id/share_btn"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/radioGroup"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:text="Paylaş"
+                android:background="#102E73"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
+
+</RelativeLayout>

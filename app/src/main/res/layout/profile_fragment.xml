@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:layout_gravity="center_horizontal">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/imageView"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_alignRight="@+id/imageView"
+            android:layout_alignEnd="@+id/imageView"
+            android:layout_alignLeft="@+id/imageView"
+            android:layout_alignStart="@+id/imageView"
+            android:background="@drawable/profile_tab_layout">
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/profileBannerButton"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:background="@drawable/profile_banner_menu" />
+        </RelativeLayout>
+        <ImageView
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="7dp"
+            android:layout_width="wrap_content"
+            android:layout_height="170dp"
+            android:id="@+id/imageView"
+            android:background="@drawable/profile_top"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <ImageView
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:id="@+id/imageView2"
+            android:background="@drawable/profile_picture"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"/>
+
+        <ImageView
+            android:layout_width="86dp"
+            android:layout_height="86dp"
+            android:id="@+id/profilePicture"
+            android:layout_marginTop="13dp"
+            android:layout_alignTop="@+id/imageView2"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:id="@+id/profileName"
+            android:layout_below="@+id/imageView2"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:id="@+id/workName"
+            android:layout_below="@+id/profileName"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/friend_icon"
+            android:layout_marginTop="4dp"
+            android:id="@+id/friendCountView"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/workName" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:id="@+id/friendCount"
+            android:layout_below="@+id/friendCountView"
+            android:layout_centerHorizontal="true" />
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/upload_progress"
+            android:progressDrawable="@drawable/progress"
+            android:layout_alignTop="@+id/profilePicture"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/popular"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/friendCount"
+            android:layout_alignLeft="@+id/imageView"
+            android:layout_alignStart="@+id/imageView"
+            android:layout_toLeftOf="@+id/popular_text"
+            android:layout_toStartOf="@+id/popular_text" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="0"
+            android:id="@+id/popular_text"
+            android:layout_alignTop="@+id/popular"
+            android:layout_alignRight="@+id/imageView"
+            android:layout_alignEnd="@+id/imageView" />
+    </RelativeLayout>
+
+    <android.support.design.widget.TabLayout
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:id="@+id/profileTab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/profile_tab_layout"
+        app:tabIndicatorColor="#102E73"
+        app:tabTextColor="@color/button_material_dark"
+        app:tabSelectedTextColor="@color/cardview_dark_background"/>
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/profilePager"
+        android:layout_marginTop="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginLeft="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/profileTab" />
+</LinearLayout>
+

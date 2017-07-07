@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:id="@+id/relativeLayout8">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/badge_view"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/badge_count"
+        android:textAlignment="center"
+        android:layout_alignLeft="@+id/badge_view"
+        android:layout_marginLeft="7dp"
+        android:textColor="#ffffff"
+        android:background="#f50000"
+        android:autoText="false"
+        android:layout_alignParentTop="true" />
+
+</RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/first_friend"
+            android:layout_below="@+id/first_friend_text"
+            android:layout_centerHorizontal="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Small Text"
+            android:layout_marginTop="5dp"
+            android:id="@+id/first_friend_text"
+            android:layout_below="@+id/item2_top_arrow"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:layout_width="2dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/item2_top_arrow"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/relation_arrow" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Sen"
+            android:id="@+id/textView4"
+            android:textSize="30dp"
+            android:layout_below="@+id/item2_bottom_arrow"
+                android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:layout_width="2dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:id="@+id/item2_bottom_arrow"
+            android:background="@drawable/relation_arrow"
+            android:layout_below="@+id/first_friend"
+            android:layout_alignLeft="@+id/item2_top_arrow"
+            android:layout_alignStart="@+id/item2_top_arrow" />
+</RelativeLayout>
+
+</RelativeLayout>

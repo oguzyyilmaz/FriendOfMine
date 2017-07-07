@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/body"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:id="@+id/item1_top_arrow"
+            android:background="@drawable/left_up_4"
+            android:layout_marginRight="70dp"
+            android:layout_alignParentRight="true"/>
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:id="@+id/item1_bottom_arrow"
+                android:background="@drawable/left_up_4"
+           android:layout_marginLeft="70dp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/relativeLayout6"
+            android:layout_alignParentLeft="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Sen"
+            android:id="@+id/textView3"
+            android:textSize="30dp"
+            android:layout_below="@+id/item1_bottom_arrow"
+            android:layout_centerHorizontal="true"/>
+        <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/item1_top_arrow"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/relativeLayout6">
+
+        <ImageView
+                android:layout_width="80dp"
+                android:layout_height="15dp"
+                android:id="@+id/item1_center_arrow"
+                android:background="@drawable/right_arrow_1"
+                android:layout_centerInParent="true"
+                android:layout_centerHorizontal="true" />
+    <RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/relativeLayout4"
+        android:layout_alignParentRight="true"
+    >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/dialog_way_text2"
+          />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/second_degree"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/dialog_way_text2"
+        />
+    </RelativeLayout>
+    <RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/relativeLayout5"
+        android:layout_centerVertical="true"
+
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/dialog_way_text1"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dialog_way_text1"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/first_degree" />
+    </RelativeLayout>
+    </RelativeLayout>
+    </RelativeLayout>
+    z
+
+
+
+</RelativeLayout>

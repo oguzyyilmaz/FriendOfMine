@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="7dp"
+    android:layout_marginRight="7dp"
+    android:layout_marginBottom="7dp"
+    android:layout_marginTop="7dp"
+    android:background="@drawable/degree_list_back"
+    android:id="@+id/recyclerLayout"
+    android:layout_below="@+id/relativeLayout3">
+
+    <android.support.v7.widget.RecyclerView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginBottom="7dp"
+        tools:context=".activity.MainActivity_"
+        />
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:progressDrawable="@drawable/progress"
+        android:indeterminate="false" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"
+        android:id="@+id/filter_layout"
+        android:background="#ffffff">
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginLeft="20dp"
+                android:id="@+id/linear1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:text="Cinsiyet"
+                    android:layout_marginTop="22dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView24"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:text="Konum"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView26"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:text="Meslek"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView25"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@+id/linear2"
+                android:layout_marginLeft="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="28dp"
+                    android:inputType="textPersonName"
+                    android:ems="10"
+                    android:id="@+id/editText8"
+                    android:textSize="8sp"
+                    android:background="@drawable/search_txt" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:layout_marginTop="16dp"
+                    android:ems="10"
+                    android:id="@+id/editText9"
+                    android:textSize="8sp"
+                    android:background="@drawable/search_txt" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:layout_marginTop="12dp"
+                    android:ems="10"
+                    android:id="@+id/editText10"
+                    android:background="@drawable/search_txt"
+                    android:textSize="8sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:id="@+id/linear3"
+                android:layout_marginLeft="10dp"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:text="Yaş Aralığı"
+                    android:layout_marginTop="22dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView28" />
+
+                <TextView
+                    android:text="Okul"
+                    android:layout_marginTop="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView29" />
+
+                <TextView
+                    android:text="Şirket"
+                    android:layout_marginTop="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView30" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:layout_marginTop="28dp"
+                    android:ems="10"
+                    android:id="@+id/editText11"
+                    android:textSize="8sp"
+                    android:background="@drawable/search_txt" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:ems="10"
+                    android:layout_marginTop="16dp"
+                    android:id="@+id/editText13"
+                    android:background="@drawable/search_txt"
+                    android:textSize="8sp" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:ems="10"
+                    android:id="@+id/editText14"
+                    android:layout_marginTop="13dp"
+                    android:textSize="8sp"
+                    android:background="@drawable/search_txt" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+</RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginTop="7dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/relativeLayout3"
+        android:background="@drawable/banner_search">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:background="@drawable/notifylist">
+            <EditText
+                android:id="@+id/degree_search"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Search"
+                android:inputType="text"
+                android:layout_marginTop="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginBottom="4dp"
+                android:layout_marginLeft="4dp"
+                android:imeOptions="actionSearch"
+                android:background="@android:color/transparent"
+                android:layout_toRightOf="@+id/searchButton"
+                android:layout_toEndOf="@+id/searchButton" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/searchButton"
+                android:layout_alignBottom="@+id/degree_search"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_tune_blue_36dp"
+            android:id="@+id/filter_image"
+            android:layout_marginRight="5dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="122dp"
+            android:layout_marginStart="122dp" />
+
+
+    </RelativeLayout>
+</RelativeLayout>

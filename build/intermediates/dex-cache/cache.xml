@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/oguz/.gradle/caches/modules-2/files-2.1/org.androidannotations/rest-spring-api/4.0.0/2fe6e547505201aa34995e87d2231bcd32b83b37/rest-spring-api-4.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="2fe6e547505201aa34995e87d2231bcd32b83b37">
+        <dex dex="/home/oguz/AndroidStudioProjects/FomApplicationAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/rest-spring-api-4.0.0_4b43457ca4653c2c1a1fa5462d30f0dbbf53f221/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/oguz/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.3.0/f5e853a20b60758922453d56f9ae1e64af5cb3da/jackson-annotations-2.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f5e853a20b60758922453d56f9ae1e64af5cb3da">
+        <dex dex="/home/oguz/AndroidStudioProjects/FomApplicationAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-annotations-2.3.0_e62cb369cddb83e8d191862dfb5446f0587ef0dc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/oguz/AndroidStudioProjects/FomApplicationAndroid/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/home/oguz/AndroidStudioProjects/FomApplicationAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_6c8c65e4d5c148039006db15c48c07089bd520dc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/oguz/.gradle/caches/modules-2/files-2.1/org.androidannotations/rest-spring-api/4.0.0/2fe6e547505201aa34995e87d2231bcd32b83b37/rest-spring-api-4.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2fe6e547505201aa34995e87d2231bcd32b83b37">
+        <dex dex="/home/oguz/AndroidStudioProjects/FomApplicationAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/rest-spring-api-4.0.0_4b43457ca4653c2c1a1fa5462d30f0dbbf53f221/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/oguz/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.3.2/559b70ac8a0d5cad611da4223137a920147201ba/jackson-core-2.3.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="559b70ac8a0d5cad611da4223137a920147201ba">
+        <dex dex="/home/oguz/AndroidStudioProjects/FomApplicationAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-core-2.3.2_d6be09f8c817bb97e44b384befae6d38eabbc4e8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/oguz/.gradle/caches/modules-2/files-2.1/org.springframework.android/spring-android-rest-template/1.0.1.RELEASE/e132d929bd181941f79b0d63edafb8a86ae6fd33/spring-android-rest-template-1.0.1.RELEASE.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e132d929bd181941f79b0d63edafb8a86ae6fd33">
+        <dex dex="/home/oguz/AndroidStudioProjects/FomApplicationAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/spring-android-rest-template-1.0.1.RELEASE_622faea516289d6576bb7ba9099f9a7fbffb9e1f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/oguz/.android/build-cache/d1ce7d1927ceba6e600903df25543ad81e25706b/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="eb9f1cef6b29492df701111c555908cb53dece35">
+        <dex dex="/home/oguz/AndroidStudioProjects/FomApplicationAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_9bc9af4ddbaed7f7282d40fbfb9004e8fbc3715c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/oguz/.gradle/caches/modules-2/files-2.1/org.springframework.android/spring-android-core/1.0.1.RELEASE/e68f0e8e4b636ee30c4de58953be38d9b72a5e3b/spring-android-core-1.0.1.RELEASE.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e68f0e8e4b636ee30c4de58953be38d9b72a5e3b">
+        <dex dex="/home/oguz/AndroidStudioProjects/FomApplicationAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/spring-android-core-1.0.1.RELEASE_5ad358f5a41be29b716a451e98418feaec20be71/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/oguz/.gradle/caches/modules-2/files-2.1/org.androidannotations/ormlite-api/4.0.0/425262cc48bf3f9f510c83bb82e81e22c204698/ormlite-api-4.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="0425262cc48bf3f9f510c83bb82e81e22c204698">
+        <dex dex="/home/oguz/AndroidStudioProjects/FomApplicationAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/ormlite-api-4.0.0_d54628a871de7e27e5b5071a27b6b951ccc8c93f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/oguz/.android/build-cache/08dc503586fbdac9385c60919a73a0f85b186b99/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="613298b7aa012f121ce542881c0a599ebd8078f2">
+        <dex dex="/home/oguz/AndroidStudioProjects/FomApplicationAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_97e0f78f2db0d301e44baf82c94ff7a86472d2eb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/oguz/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.3.0/f5e853a20b60758922453d56f9ae1e64af5cb3da/jackson-annotations-2.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="f5e853a20b60758922453d56f9ae1e64af5cb3da">
+        <dex dex="/home/oguz/AndroidStudioProjects/FomApplicationAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-annotations-2.3.0_e62cb369cddb83e8d191862dfb5446f0587ef0dc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/oguz/.android/build-cache/f2472545a196b866dbdcb01c8d569f49466cb2ca/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
+        <dex dex="/home/oguz/AndroidStudioProjects/FomApplicationAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_33917e9631c6862026d2368497e048dd19218a8a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/oguz/.gradle/caches/modules-2/files-2.1/org.springframework.android/spring-android-core/1.0.1.RELEASE/e68f0e8e4b636ee30c4de58953be38d9b72a5e3b/spring-android-core-1.0.1.RELEASE.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e68f0e8e4b636ee30c4de58953be38d9b72a5e3b">
+        <dex dex="/home/oguz/AndroidStudioProjects/FomApplicationAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/spring-android-core-1.0.1.RELEASE_5ad358f5a41be29b716a451e98418feaec20be71/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/oguz/.gradle/caches/modules-2/files-2.1/org.androidannotations/ormlite-api/4.0.0/425262cc48bf3f9f510c83bb82e81e22c204698/ormlite-api-4.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0425262cc48bf3f9f510c83bb82e81e22c204698">
+        <dex dex="/home/oguz/AndroidStudioProjects/FomApplicationAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/ormlite-api-4.0.0_d54628a871de7e27e5b5071a27b6b951ccc8c93f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/oguz/.android/build-cache/acd90d30d568a04cea01cf65bc1f4439c8d24517/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="/home/oguz/AndroidStudioProjects/FomApplicationAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d6bfa0ba5c3831e60004bd866a1a3007bf780166/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/oguz/.android/build-cache/cea5cce9d1cf8e171854c275644b640c95442b1d/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7ff77725723167163d69439e3fd077bd0899babf">
+        <dex dex="/home/oguz/AndroidStudioProjects/FomApplicationAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d9b9724503783a592679e4861963fb177293aff6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/oguz/.android/build-cache/8f29fc2f76d1d58889d91daea11e3615018ac84f/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ed6b455e3dd7bbf1ff31f8df0b41e2f0d87f3ace">
+        <dex dex="/home/oguz/AndroidStudioProjects/FomApplicationAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4ae03956f6fce67f6c1dc5a9a9462ed856af4fc0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/oguz/.android/build-cache/2377d69068ec7ae3d82846837d01dcc2ba45422d/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
+        <dex dex="/home/oguz/AndroidStudioProjects/FomApplicationAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_92021c25df2396b57a589601c8b52e99c2e2876c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/oguz/.android/build-cache/8349e4ce36aa466b38468023a16a485ec6e75651/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="/home/oguz/AndroidStudioProjects/FomApplicationAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b8bfcd6f2985c7c4c8388b1603886001936853c7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/oguz/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.3.2/559b70ac8a0d5cad611da4223137a920147201ba/jackson-core-2.3.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="559b70ac8a0d5cad611da4223137a920147201ba">
+        <dex dex="/home/oguz/AndroidStudioProjects/FomApplicationAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-core-2.3.2_d6be09f8c817bb97e44b384befae6d38eabbc4e8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/oguz/.android/build-cache/a01abd9709abae7dc1c229dc890b208a7c84ef9e/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="02cc9f2e5899415add52bc716602b6b38e7eeb99">
+        <dex dex="/home/oguz/AndroidStudioProjects/FomApplicationAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5e40811dbdc8d75bc8cf945d6d38b1633239742c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/oguz/.android/build-cache/43c4f3d55a557c54dc79a41eb898fafdaccfb885/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b42cf2134829f715edfa2adaf0ee246631322dba">
+        <dex dex="/home/oguz/AndroidStudioProjects/FomApplicationAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_84a1cbc18a526fdab0fbf075d16d55232f6098ce/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/oguz/.android/build-cache/6cd7a9d9e24b6dace3b025173480d5acba7c2e99/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f0001e71cea6ae432a00021c6f727f5ef0f3d27e">
+        <dex dex="/home/oguz/AndroidStudioProjects/FomApplicationAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_84b52991b1ee2b5e96885b0a30e58140b46466f6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/oguz/.android/build-cache/e59fd9148ae710c7e011b2055bc5dd78ac873806/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
+        <dex dex="/home/oguz/AndroidStudioProjects/FomApplicationAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1109eb77163882c3c95a51ce344312cf7f336d25/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/oguz/.gradle/caches/modules-2/files-2.1/org.androidannotations/androidannotations-api/4.0.0/8ef59050fdc527130b8f1f5689164a1ec0ebc13c/androidannotations-api-4.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8ef59050fdc527130b8f1f5689164a1ec0ebc13c">
+        <dex dex="/home/oguz/AndroidStudioProjects/FomApplicationAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/androidannotations-api-4.0.0_fb01822f56b820683a58fe7ac9839a6692ff7ecc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/oguz/AndroidStudioProjects/FomApplicationAndroid/app/libs/badgeview.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f77b0850a8adcf49b273a8f29ba481612aaaa19f">
+        <dex dex="/home/oguz/AndroidStudioProjects/FomApplicationAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/2/badgeview_593cfea8a6f230a8ef3e2c706db2c4765138f2bd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/oguz/.android/build-cache/43dc023d55771bcd2f329fc29cf23bcf0255222d/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="debf30ce0a7560396b6235edef77e447006454c2">
+        <dex dex="/home/oguz/AndroidStudioProjects/FomApplicationAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b7253f1fe2fb31aa57b45f664dd8662215b26475/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/oguz/.gradle/caches/modules-2/files-2.1/com.flaviofaria/kenburnsview/1.0.7/ce4e8bba9e026dd29f8110b2f6bb1fc4ecbdd9b1/kenburnsview-1.0.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ce4e8bba9e026dd29f8110b2f6bb1fc4ecbdd9b1">
+        <dex dex="/home/oguz/AndroidStudioProjects/FomApplicationAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/kenburnsview-1.0.7_b942439212cc74fc733f198a71a811123931d0f0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/oguz/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.3.2/c75edc740a6d8cb1cef6fa82fa594e0bce561916/jackson-databind-2.3.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c75edc740a6d8cb1cef6fa82fa594e0bce561916">
+        <dex dex="/home/oguz/AndroidStudioProjects/FomApplicationAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-databind-2.3.2_51c4623ebbbe6b6f2e96a48accc07b8b3796ca57/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/oguz/.android/build-cache/33de2106d960cca4d4f42036cec47dea334fb14d/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a319fd4d548ba4cc9511561d37109ba922bfbf6a">
+        <dex dex="/home/oguz/AndroidStudioProjects/FomApplicationAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_279348f718e066b0dc8a3a4bb4c60542cdfaa42e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/oguz/.gradle/caches/modules-2/files-2.1/org.androidannotations/androidannotations-api/4.0.0/8ef59050fdc527130b8f1f5689164a1ec0ebc13c/androidannotations-api-4.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="8ef59050fdc527130b8f1f5689164a1ec0ebc13c">
+        <dex dex="/home/oguz/AndroidStudioProjects/FomApplicationAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/androidannotations-api-4.0.0_fb01822f56b820683a58fe7ac9839a6692ff7ecc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/oguz/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.3.0/support-annotations-23.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="/home/oguz/AndroidStudioProjects/FomApplicationAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.3.0_279bce6ad0a631557cd7bf0a7822412b2dc5bebf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/oguz/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.3.2/c75edc740a6d8cb1cef6fa82fa594e0bce561916/jackson-databind-2.3.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="c75edc740a6d8cb1cef6fa82fa594e0bce561916">
+        <dex dex="/home/oguz/AndroidStudioProjects/FomApplicationAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-databind-2.3.2_51c4623ebbbe6b6f2e96a48accc07b8b3796ca57/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/oguz/.gradle/caches/modules-2/files-2.1/com.flaviofaria/kenburnsview/1.0.7/ce4e8bba9e026dd29f8110b2f6bb1fc4ecbdd9b1/kenburnsview-1.0.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="ce4e8bba9e026dd29f8110b2f6bb1fc4ecbdd9b1">
+        <dex dex="/home/oguz/AndroidStudioProjects/FomApplicationAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/kenburnsview-1.0.7_b942439212cc74fc733f198a71a811123931d0f0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/oguz/.android/build-cache/38541666d00afc8e6f1710059c5dd7af9b96ca48/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f07a981ca05915ec0a07be2367f744e062ba4fcb">
+        <dex dex="/home/oguz/AndroidStudioProjects/FomApplicationAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f8d65b758893b4a51202c53f29907f57c8e217ff/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/oguz/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.3.0/support-annotations-23.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="/home/oguz/AndroidStudioProjects/FomApplicationAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.3.0_279bce6ad0a631557cd7bf0a7822412b2dc5bebf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/oguz/AndroidStudioProjects/FomApplicationAndroid/app/libs/badgeview.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="f77b0850a8adcf49b273a8f29ba481612aaaa19f">
+        <dex dex="/home/oguz/AndroidStudioProjects/FomApplicationAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/2/badgeview_593cfea8a6f230a8ef3e2c706db2c4765138f2bd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/oguz/AndroidStudioProjects/FomApplicationAndroid/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1e6b2e012ffacb3227651ccc68869abfc9e1cb90">
+        <dex dex="/home/oguz/AndroidStudioProjects/FomApplicationAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_1a6bd1a3a5a1fd7724b22a3c3111bc072061027c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/oguz/.android/build-cache/45e9ec0828bf15f2f1a3190d2e530ccf360c349e/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3fb1fe781490fcf9fa47ee2c268279f777266a6a">
+        <dex dex="/home/oguz/AndroidStudioProjects/FomApplicationAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e56abbec9dee1a39c594da80a59019e630e148dc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/oguz/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/home/oguz/AndroidStudioProjects/FomApplicationAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/picasso-2.5.2_de1edd3643560bb9a13c17e96a366265d1f13e18/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/oguz/.android/build-cache/591084d9efa9f4e073d96c7ad745227d487c456d/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="/home/oguz/AndroidStudioProjects/FomApplicationAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_9be45b898d6cc6c3ee3058e3a51a9b4dbdba897c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/oguz/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/home/oguz/AndroidStudioProjects/FomApplicationAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/picasso-2.5.2_de1edd3643560bb9a13c17e96a366265d1f13e18/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/oguz/.android/build-cache/591084d9efa9f4e073d96c7ad745227d487c456d/output/jars/libs/internal_impl-23.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="/home/oguz/AndroidStudioProjects/FomApplicationAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.3.0_b4b4fb1ec271e63fa40cf9ec3c7b1c279f886ed6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/oguz/.android/build-cache/5ec0b4bbc3740dc626999424d1c0cd00769d623e/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2d7fe76982677315c4dc4edfb459c8ca718a9d4c">
+        <dex dex="/home/oguz/AndroidStudioProjects/FomApplicationAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_522f601abac5e3d1a5399673599a95c31ab05881/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/oguz/.android/build-cache/70bd6bca5fe9435e1e8da59055b20e400d0f24fd/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="82ce13fd19cdfde0e392f03c27edeba8d4333648">
+        <dex dex="/home/oguz/AndroidStudioProjects/FomApplicationAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_39ccd49f3a2305d3e6afe2ef7188c77fa95a63ab/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/oguz/.gradle/caches/modules-2/files-2.1/org.springframework.android/spring-android-rest-template/1.0.1.RELEASE/e132d929bd181941f79b0d63edafb8a86ae6fd33/spring-android-rest-template-1.0.1.RELEASE.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e132d929bd181941f79b0d63edafb8a86ae6fd33">
+        <dex dex="/home/oguz/AndroidStudioProjects/FomApplicationAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/spring-android-rest-template-1.0.1.RELEASE_622faea516289d6576bb7ba9099f9a7fbffb9e1f/classes.dex" />
+    </item>
+
+</items>

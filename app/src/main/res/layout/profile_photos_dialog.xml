@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:visibility="visible">
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/photos_layout">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:id="@+id/photos_dialog"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#4b102e73"
+            android:layout_alignBottom="@+id/photos_dialog"
+            android:id="@+id/footer"
+            android:layout_alignRight="@+id/photos_dialog"
+            android:layout_alignEnd="@+id/photos_dialog"
+            android:layout_alignLeft="@+id/photos_dialog"
+            android:layout_alignStart="@+id/photos_dialog">
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/delete_photo"
+                android:background="@drawable/delete_icon"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="63dp"
+                android:layout_marginEnd="63dp" />
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/add_new"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="81dp"
+                android:layout_marginStart="81dp"
+                android:id="@+id/add_photo" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,26 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--   your app branding color for the app bar -->
+        <item name="android:colorPrimary">#102E73</item>
+        <!--   darker variant for the status bar and contextual app bars -->
+        <item name="android:colorPrimaryDark">#102E73</item>
+        <!--   theme UI controls like checkboxes and text fields -->
+        <item name="android:colorAccent">#102E73</item>
+    </style>
+    <style name="Divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">?android:attr/listDivider</item>
+    </style>
+
+    <style name="DialogEnterAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_up</item>
+    </style>
+    <style name="DialogExitAnimation">
+        <item name="android:windowExitAnimation">@anim/slide_down</item>
+    </style>
+    <style name="CornerAnim">
+        <item name="android:windowEnterAnimation">@anim/corner_anim</item>
+    </style>
+</resources>
